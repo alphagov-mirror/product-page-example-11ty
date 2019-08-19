@@ -7,7 +7,7 @@
     "dev": "eleventy --serve",
     "build": "npm run css:build && npx eleventy",
     "css:dev": "node-sass --watch scss/ -o css/ --include-path node_modules/govuk-frontend/govuk",
-    "css:build": "node-sass --watch scss/ -o css/ --include-path node_modules/govuk-frontend/govuk --output-style compressed"
+    "css:build": "node-sass scss/ -o css/ --include-path node_modules/govuk-frontend/govuk --output-style compressed"
   },
   "repository": {
     "type": "git",
