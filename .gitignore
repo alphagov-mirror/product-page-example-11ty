@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules
+
+# eleventy build output
+_site/

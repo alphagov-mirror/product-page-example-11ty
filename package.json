@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/alphagov/product-page-example-11ty/issues"
   },
-  "homepage": "https://github.com/alphagov/product-page-example-11ty#readme"
+  "homepage": "https://github.com/alphagov/product-page-example-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
 }
