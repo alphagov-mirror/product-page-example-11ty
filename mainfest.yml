@@ -1,7 +1,6 @@
 ---
 applications:
-- name: product-page-example
+- name: product-page-example-11ty
   memory: 64M
   path: ./_site
-  buildpacks:
-   - staticfile_buildpack
+  buildpack: staticfile_buildpack
