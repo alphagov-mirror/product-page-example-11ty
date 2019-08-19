@@ -1,0 +1,7 @@
+---
+applications:
+- name: product-page-example
+  memory: 64M
+  path: ./_site
+  buildpacks:
+   - staticfile_buildpack
