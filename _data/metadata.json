@@ -1,0 +1,16 @@
+{
+  "title": "Example Product Page - GOV.UK",
+  "url": "https://something.cloudapps.digital",
+  "description": "GOV.UK - The place to find government services and information - Simpler, clearer, faster",
+  "feed": {
+    "subtitle": "GOV.UK - The place to find government services and information - Simpler, clearer, faster",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://something.cloudapps.digital/feed/feed.xml",
+    "id": "https://something.cloudapps.digital/"
+  },
+  "author": {
+    "name": "Jon Heslop",
+    "email": "jon.heslop@digital.cabinet-office.gov.uk"
+  }
+}

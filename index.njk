@@ -1,0 +1,19 @@
+{% extends "layouts/base.njk" %}
+{% from "components/header/macro.njk" import govukHeader %}
+
+{% block pageTitle %}Hello world - GOV.UK{% endblock %}
+
+{% block header %}
+  {{
+    govukHeader({
+      productName: 'Pay'
+    })
+  }}
+{% endblock %}
+
+
+{% block content %}
+  <h1 class="govuk-heading-xl">GOV.UK x Eleventy</h1>
+  
+  <p class="govuk-body-l">This is a static site powered by <a href="https://www.11ty.io/">Eleventy</a>.</p>
+{% endblock %}
