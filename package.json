@@ -1,0 +1,29 @@
+{
+  "name": "product-page-example-11ty",
+  "version": "1.0.0",
+  "description": "An 11ty based static site generator for GDS Portfolio product pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphagov/product-page-example-11ty.git"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "node",
+    "static",
+    "nunjucks",
+    "govuk",
+    "design",
+    "system"
+  ],
+  "author": "Jon Heslop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphagov/product-page-example-11ty/issues"
+  },
+  "homepage": "https://github.com/alphagov/product-page-example-11ty#readme"
+}
