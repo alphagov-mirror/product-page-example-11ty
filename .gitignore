@@ -3,5 +3,6 @@ node_modules
 
 # eleventy build output
 _site/
+css/*
 
 .DS_Store
