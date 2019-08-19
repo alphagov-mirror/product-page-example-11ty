@@ -6,11 +6,26 @@
 {% block header %}
   {{
     govukHeader({
-      productName: 'Pay'
+      productName: 'Pay',
+      navigation: [
+        {
+          href: "#1",
+          text: "Documentation",
+          active: true
+        },
+        {
+          href: "#",
+          text: "Contact"
+        },
+        {
+          href: "#",
+          text: "Login"
+        }
+      ],
+      navigationClasses: "app-navigation--align-right"
     })
   }}
 {% endblock %}
-
 
 {% block content %}
   <h1 class="govuk-heading-xl">GOV.UK x Eleventy</h1>
